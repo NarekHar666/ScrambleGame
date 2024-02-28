@@ -2,6 +2,10 @@
 
 ![Scramble Game](images/ScrambleGame.jpg)
 
+## Play the Game
+
+[Click here to play the game online](https://narekhar666.github.io/ScrambleGame/)
+
 # Word Scramble Game
 
 This is a simple word scramble game implemented in HTML, CSS, and JavaScript. The game presents a shuffled word, and the player needs to unscramble it within a time limit. It includes features such as hints, skipping, and a timer.
@@ -27,8 +31,7 @@ You can play the game live [here].
 5. View the results at the end of the game.
 
 
-## Installation
 
-No installation is required. Simply open the `index.html` file in a web browser.
+[Click here to try online](https://narekhar666.github.io/ScrambleGame/)
 
 
