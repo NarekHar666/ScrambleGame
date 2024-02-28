@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>Word Scramble</h2>
+        <div class="display">
+            <p class="display_word"></p><br>
+            <span class="display_hint"></span><br></br>
+            <div class="time_count">
+                <span id="timer"></span>
+                <span class="count"></span>
+            </div>
+        </div>
+        <div class="form">
+            <input autocomplete="off" id="input" placeholder="input the word" type="text"/>
+            <div class="buttons_div">
+                <button class="skip" >Skip</button>
+                <button class="next">Next</button>
+            </div>
+        </div>
+    </div>
+    
+    <div class="result_container"></div>
+    <script src="js.js"></script>
+
+</body>
+</html>

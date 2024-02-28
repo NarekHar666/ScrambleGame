@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+input{
+    outline: none;
+    padding: 20px 5px;
+}
+
+.container::before{
+    position: absolute;
+    content: "";
+    width: 100%;
+    background-color: rgb(223, 217, 217);
+    height: 2px;
+    top: 50px;
+    left: 0;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(90deg,blue,purple);
+    padding: 20px;
+}
+
+.container{
+    width: 500px;
+    padding: 20px;
+    position: relative;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.container p{
+    text-align: center;
+    font-size: clamp(25px,5vw,40px);
+    letter-spacing: 5px;
+    font-weight: bolder;
+    margin-bottom: 5px;
+}
+
+.container input{
+    width: 100%;
+    height: 30px;
+    border-radius: 10px;
+    border: 2px solid rgb(251, 242, 242);
+    text-indent: 15px;
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+
+.buttons_div{
+    padding: 20px 0 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.buttons_div button{
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    color: white;
+
+}
+
+.buttons_div .skip{
+    background-color: gray;
+}
+
+.buttons_div .next{
+    background-color: blue;
+}
+
+
+
+.result_container{
+    padding: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: none;
+    gap: 25px;
+    font-size: 35px;
+    color: white;
+    background: black;
+    border: 1px solid white;
+    box-shadow: 0 0 20px black,
+    0 0 10px black,
+    0 0 40px black;
+}
+
+.result_container button{
+    font-size: 25px;
+    padding: 10px;
+}
+
+button{
+    cursor: pointer;
+}
+
+.time_count{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 5px;
+}
