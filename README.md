@@ -1,6 +1,6 @@
 ## Screenshots
 
-(images/ScrambleGame.jpg)
+![Scramble Game](images/ScrambleGame.jpg)
 
 # Word Scramble Game
 
